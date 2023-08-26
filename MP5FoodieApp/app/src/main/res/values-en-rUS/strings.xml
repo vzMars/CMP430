@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MP5 Foodie App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_placeholder">Meal Title</string>
+    <string name="meal_description_title_placeholder">Meal Description Title</string>
+    <string name="meal_description_placeholder">Meal Description</string>
+    <string name="meal_image">Meal Image</string>
+    <string name="meal_title">Meal Title</string>
+    <string name="meal_description">Meal Description: </string>
+    <string name="meal_ingredients">Meal Ingredients: </string>
+    <string name="meal_calories">Meal Calories: </string>
+    <string name="meal_link">Meal Link: </string>
+    <string name="add_meal">Add Meal</string>
+    <string name="etTitle">Title</string>
+    <string name="etDescription">Description</string>
+    <string name="etIngredients">Ingredients</string>
+    <string name="etCalories">Calories</string>
+    <string name="etLinks">Links</string>
+    <string name="button_text">Done</string>
+    <string name="add_meal_button">Add Meal Button</string>
+
+    <string-array name="meal_titles">
+        <item>Mashed Plantains</item>
+        <item>Stewed Beans</item>
+        <item>Ripe Plantain Casserole</item>
+        <item>Braised Chicken</item>
+        <item>Twice-Fried Plantains</item>
+        <item>The Famous Dominican Chimi Burger</item>
+        <item>Rice and Beans</item>
+        <item>Savory Turnovers</item>
+        <item>Fried Cheese</item>
+        <item>Three-Milk Cake</item>
+        <item>Crème Caramel</item>
+    </string-array>
+
+    <string-array name="meal_description">
+        <item>Mangú is the best known and most representative dish of the Dominican breakfast, one you should most certainly try.</item>
+        <item>Habichuelas Guisadas is one of the dishes that appear almost daily at the lunch table and is one of the tests of the competent Dominican home cook.</item>
+        <item>Pastelón de Plátano Maduro (Ripe Plantain Casserole) combines the delicate sweetness of ripe plantains, flavorful juicy beef filling, &amp; melting cheese.</item>
+        <item>All over Latin America Pollo Guisado is a staple at mealtime.</item>
+        <item>Tostones (Dominican Twice-Fried Plantains), one of our favorite side dishes. Enjoy these crispy delights!</item>
+        <item>Chimichurri (Dominican Chimi Hamburger) is a sauce-dripping burger made throughout the Dominican Rep.</item>
+        <item>Moro de Habichuelas (Dominican Rice and Beans) is one of the most common dishes on the Dominican table, and you can modify it by using other types of beans.</item>
+        <item>Empanaditas and Pastelitos add variety and Dominican flavor to your hors d\'oeuvres platter. This recipe give you the choice to use a chicken, vegan, beef, pork, or cheese fillings.</item>
+        <item>Queso Frito (Dominican Fried Cheese) is quite a treat in itself, and a usual component of Los Tres Golpes, the traditional Dominican breakfast.</item>
+        <item>Tres Leches Recipe (Three-Milk Cake) is impossible to resist and so very popular</item>
+        <item>Flan (Creme Caramel) a very popular dessert inherited from the Spaniards and common in all Latin America</item>
+    </string-array>
+
+    <string-array name="meal_ingredients">
+        <item>Ingredients: plantains and more (visit the link for the rest)</item>
+        <item>Ingredients: dry pinto, cranberry, or red kidney beans and more (visit the link for the rest)</item>
+        <item>Ingredients: plantains and more (visit the link for the rest)</item>
+        <item>Ingredients: chicken and more (visit the link for the rest)</item>
+        <item>Ingredients: plantains and more (visit the link for the rest)</item>
+        <item>Ingredients: ground beef and more (visit the link for the rest)</item>
+        <item>Ingredients: white rice and more (visit the link for the rest)</item>
+        <item>Ingredients: flour and more (visit the link for the rest)</item>
+        <item>Ingredients: cheese and more (visit the link for the rest)</item>
+        <item>Ingredients: milk and more (visit the link for the rest)</item>
+        <item>Ingredients: milk and more (visit the link for the rest)</item>
+    </string-array>
+
+    <string-array name="meal_calories">
+        <item>Calories: 348 kcal</item>
+        <item>Calories: 396 kcal</item>
+        <item>Calories: 754 kcal</item>
+        <item>Calories: 242 kcal</item>
+        <item>Calories: 219 kcal</item>
+        <item>Calories: 1317 kcal</item>
+        <item>Calories: 636 kcal</item>
+        <item>Calories: 228 kcal</item>
+        <item>Calories: 95 kcal</item>
+        <item>Calories: 399 kcal</item>
+        <item>Calories: 400 kcal</item>
+    </string-array>
+
+    <string-array name="meal_links">
+        <item>https://www.dominicancooking.com/532-mangu-mashed-plantains.html</item>
+        <item>https://www.dominicancooking.com/122-habichuelas-rojas-guisadas-stewed-red-beans.html</item>
+        <item>https://www.dominicancooking.com/250-pastelon-de-platanos-amarillos-ripe-plantains-casserole.html</item>
+        <item>https://www.dominicancooking.com/620-pollo-guisado-braised-chicken.html</item>
+        <item>https://www.dominicancooking.com/301-tostones-flattened-fried-plantains.html</item>
+        <item>https://www.dominicancooking.com/523-chimichurri-dominican-hamburger.html</item>
+        <item>https://www.dominicancooking.com/569-moro-de-habichuelas-rice-and-black-beans.html</item>
+        <item>https://www.dominicancooking.com/21-recipe-empanaditas-pastelitos-savoury-turnovers.html</item>
+        <item>https://www.dominicancooking.com/305-queso-frito-fried-cheese.html</item>
+        <item>https://www.dominicancooking.com/934-tres-leches-three-milk-cake.html</item>
+        <item>https://www.dominicancooking.com/983-flan-caramel-cream.html</item>
+    </string-array>
+
+    <string-array name="meal_images">
+        <item>@drawable/mangu</item>
+        <item>@drawable/habichuelas</item>
+        <item>@drawable/pastelon</item>
+        <item>@drawable/pollo</item>
+        <item>@drawable/tostones</item>
+        <item>@drawable/chimi</item>
+        <item>@drawable/moro</item>
+        <item>@drawable/pastelitos</item>
+        <item>@drawable/queso</item>
+        <item>@drawable/tresleches</item>
+        <item>@drawable/flan</item>
+    </string-array>
+</resources>

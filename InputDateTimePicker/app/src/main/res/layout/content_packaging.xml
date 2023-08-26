@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PackagingActivity"
+    tools:showIn="@layout/activity_packaging"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_packaging_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/text_package_options"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_bow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bow"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox
+        android:id="@+id/checkbox_bag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bag"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox
+        android:id="@+id/checkbox_bubble_wrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bubble Wrap"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox
+        android:id="@+id/checkbox_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Box"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox
+        android:id="@+id/checkbox_balloons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balloons"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox
+        android:id="@+id/checkbox_giftwrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gift Wrap"
+        android:onClick="onCheckboxClicked"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_textView_default">10dp</dimen>
+    <dimen name="row_gap">5sp</dimen>
+    <dimen name="default_padding">10sp</dimen>
+    <dimen name="left_margin">30sp</dimen>
+    <dimen name="seekbar_width">260dp</dimen>
+    <dimen name="edit_margin">20sp</dimen>
+</resources>

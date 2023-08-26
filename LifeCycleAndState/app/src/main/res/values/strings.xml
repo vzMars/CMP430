@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LifeCycleAndState</string>
+    <string name="no_food_chosen_yet">NO FOOD CHOSEN YET</string>
+    <string name="food_list">Food List</string>
+    <string name="apple">apple</string>
+    <string name="banana">banana</string>
+    <string name="grapes">grapes</string>
+    <string name="kiwi">kiwi</string>
+    <string name="orange">orange</string>
+    <string name="pineapple">pineapple</string>
+    <string name="strawberries">strawberries</string>
+    <string name="watermelon">watermelon</string>
+    <string name="lemon">lemon</string>
+    <string name="cherries">cherries</string>
+    <string name="peach">peach</string>
+    <string name="pear">pear</string>
+    <string name="add_food">Add Food</string>
+    <string name="send_list">Send List</string>
+</resources>

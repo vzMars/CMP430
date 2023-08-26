@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TabAndSwipeFromScratch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_lovely_gourmet_1">Lovely Gourmet 1</string>
+    <string name="text_lovely_gourmet_2">Lovely Gourmet 2</string>
+    <string name="text_lovely_gourmet_3">Lovely Gourmet 3</string>
+    <string name="text_lovely_homestyle_3">Homestyle 3</string>
+    <string name="text_lovely_homestyle_2">Homestyle 2</string>
+    <string name="text_lovely_homestyle_1">Homestyle 1</string>
+    <string name="text_lovely_fusion_3">Fusion 3</string>
+    <string name="text_lovely_fusion_2">Fusion 2</string>
+    <string name="text_lovely_fusion_1">Fusion 1</string>
+    <string name="increment">Increment</string>
+</resources>

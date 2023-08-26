@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ImplicitIntents</string>
+    <string name="hint_web_address">www.somewhere.com or any other address</string>
+    <string name="button_web_text">Visit Webpage</string>
+    <string name="hint_location">Lehman College or other landmark</string>
+    <string name="button_loc_text">Find Location</string>
+    <string name="hint_message">Enter you message</string>
+    <string name="button_plain_message_text">Send Message</string>
+    <string name="button_take_picture">Take A Pic</string>
+    <string name="button_dial">Dial Jenny</string>
+    <string name="image_view_description">display captured image from camera</string>
+</resources>

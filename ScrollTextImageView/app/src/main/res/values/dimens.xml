@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_default">10dp</dimen>
+    <dimen name="line_spacing">5sp</dimen>
+    <dimen name="poster_margin">16dp</dimen>
+    <dimen name="btn_txt_size">24sp</dimen>
+</resources>

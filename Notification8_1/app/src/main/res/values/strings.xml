@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notification8_1</string>
+    <string name="notify_me">Create Notification</string>
+    <string name="cancel_notification">Cancel Notification</string>
+    <string name="update_notification">Update Notification</string>
+    <string name="create_alarm_notif">Set Alarm</string>
+    <string name="cancel_alarm_notif">Cancel Alarm</string>
+</resources>

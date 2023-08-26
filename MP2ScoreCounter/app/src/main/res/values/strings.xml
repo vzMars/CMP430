@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MP2 Score Counter</string>
+    <string name="winner">Winner</string>
+    <string name="starting_value">0</string>
+    <string name="red_team">Red</string>
+    <string name="blue_team">Blue</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CreateStartActivities</string>
+    <string name="main_header">Activity1 - Reply Received from 2</string>
+    <string name="editText_hint_main">Enter Message Here</string>
+    <string name="button_text_send">Send</string>
+    <string name="text_header_second">Activity2 - Message Received from 1</string>
+    <string name="button_text_reply">Reply</string>
+    <string name="editText_hint_reply">Enter relpy message</string>
+</resources>

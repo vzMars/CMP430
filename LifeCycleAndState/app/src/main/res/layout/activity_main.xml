@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_header_food_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/food_list"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="@dimen/default_margin"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textStyle="bold"
+         />
+
+    <TextView
+        android:id="@+id/textView_food_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="@string/no_food_chosen_yet"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_add_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red_bg"
+            android:textStyle="bold"
+            android:text="@string/add_food"
+            android:onClick="launchFoodChooserActivity"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_share_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red_bg"
+            android:textStyle="bold"
+            android:text="@string/send_list"
+            android:onClick="launchSendList"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

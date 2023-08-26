@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AsyncTask</string>
+    <string name="text_view_text">Hello Async Task</string>
+    <string name="btn_label">Start Task</string>
+</resources>

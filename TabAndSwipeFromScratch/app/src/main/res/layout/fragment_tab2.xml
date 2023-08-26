@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab2Fragment"
+    android:orientation="vertical"
+    android:id="@+id/tab2_homestyle"
+    android:background="@android:color/holo_orange_light">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_homestyle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_lovely_homestyle_1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="16dp"/>
+    <TextView
+        android:id="@+id/tv_homestyle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_lovely_homestyle_2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_homestyle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_lovely_homestyle_3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>

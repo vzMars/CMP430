@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_big"
+        android:hint="@string/hint_web_address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        />
+
+    <Button
+        android:id="@+id/buttonWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_big"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:padding="@dimen/padding_default"
+        android:text="@string/button_web_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size_default"
+        />
+
+    <EditText
+        android:id="@+id/editTextLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_big"
+        android:hint="@string/hint_location"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        />
+
+    <Button
+        android:id="@+id/buttonLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_big"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:padding="@dimen/padding_default"
+        android:text="@string/button_loc_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size_default"
+        />
+
+    <EditText
+        android:id="@+id/editTextPlainMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_big"
+        android:hint="@string/hint_message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        />
+
+    <Button
+        android:id="@+id/buttonPlainMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_big"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:padding="@dimen/padding_default"
+        android:text="@string/button_plain_message_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size_default"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_xl"
+        >
+
+
+        <Button
+            android:id="@+id/buttonTakePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_big"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:padding="@dimen/padding_default"
+            android:text="@string/button_take_picture"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size_default"
+            />
+
+        <Button
+            android:id="@+id/buttonDial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_big"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:padding="@dimen/padding_default"
+            android:text="@string/button_dial"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size_default"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

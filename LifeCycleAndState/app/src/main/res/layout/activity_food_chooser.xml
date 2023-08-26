@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodChooserActivity"
+    android:orientation="vertical">
+
+        <GridLayout
+            android:id="@+id/gridLayout_Food_Images"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+
+            <ImageButton
+                android:id="@+id/button_apple"
+                android:layout_width="@dimen/button_icon_width"
+                android:layout_height="@dimen/button_icon_height"
+                android:layout_margin="@dimen/button_margin"
+                android:contentDescription="@string/apple"
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/button_banana"
+                android:layout_width="@dimen/button_icon_width"
+                android:layout_height="@dimen/button_icon_height"
+                android:layout_margin="@dimen/button_margin"
+                android:contentDescription="@string/banana"
+                android:scaleType="fitCenter"
+                android:src="@drawable/banana" />
+
+            <ImageButton
+                android:id="@+id/button_cherries"
+                android:layout_width="@dimen/button_icon_width"
+                android:layout_height="@dimen/button_icon_height"
+                android:layout_margin="@dimen/button_margin"
+                android:contentDescription="@string/cherries"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cherries" />
+
+            <ImageButton
+                android:id="@+id/button_grapes"
+                android:layout_width="@dimen/button_icon_width"
+                android:layout_height="@dimen/button_icon_height"
+                android:layout_margin="@dimen/button_margin"
+                android:contentDescription="@string/grapes"
+                android:scaleType="fitCenter"
+                android:src="@drawable/grapes" />
+
+            <ImageButton
+                android:id="@+id/button_kiwi"
+                android:layout_width="@dimen/button_icon_width"
+                android:layout_height="@dimen/button_icon_height"
+                android:layout_margin="@dimen/button_margin"
+                android:contentDescription="@string/kiwi"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kiwi" />
+
+            <ImageButton
+                android:id="@+id/button_lemon"
+                android:layout_width="@dimen/button_icon_width"
+                android:layout_height="@dimen/button_icon_height"
+                android:layout_margin="@dimen/button_margin"
+                android:contentDescription="@string/lemon"
+                android:scaleType="fitCenter"
+                android:src="@drawable/lemon" />
+
+            <ImageButton
+                android:id="@+id/button_orange"
+                android:layout_width="@dimen/button_icon_width"
+                android:layout_height="@dimen/button_icon_height"
+                android:layout_margin="@dimen/button_margin"
+                android:contentDescription="@string/orange"
+                android:scaleType="fitCenter"
+                android:src="@drawable/orange" />
+
+            <ImageButton
+                android:id="@+id/button_peach"
+                android:layout_width="@dimen/button_icon_width"
+                android:layout_height="@dimen/button_icon_height"
+                android:layout_margin="@dimen/button_margin"
+                android:contentDescription="@string/peach"
+                android:scaleType="fitCenter"
+                android:src="@drawable/peach" />
+
+            <ImageButton
+                android:id="@+id/button_pear"
+                android:layout_width="@dimen/button_icon_width"
+                android:layout_height="@dimen/button_icon_height"
+                android:layout_margin="@dimen/button_margin"
+                android:contentDescription="@string/pear"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pear" />
+
+            <ImageButton
+                android:id="@+id/button_pineapple"
+                android:layout_width="@dimen/button_icon_width"
+                android:layout_height="@dimen/button_icon_height"
+                android:layout_margin="@dimen/button_margin"
+                android:contentDescription="@string/pineapple"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pineapple" />
+
+            <ImageButton
+                android:id="@+id/button_strawberries"
+                android:layout_width="@dimen/button_icon_width"
+                android:layout_height="@dimen/button_icon_height"
+                android:layout_margin="@dimen/button_margin"
+                android:contentDescription="@string/strawberries"
+                android:scaleType="fitCenter"
+                android:src="@drawable/strawberries" />
+
+            <ImageButton
+                android:id="@+id/button_watermelon"
+                android:layout_width="@dimen/button_icon_width"
+                android:layout_height="@dimen/button_icon_height"
+                android:layout_margin="@dimen/button_margin"
+                android:contentDescription="@string/watermelon"
+                android:scaleType="fitCenter"
+                android:src="@drawable/watermelon" />
+
+        </GridLayout>
+
+
+</ScrollView>

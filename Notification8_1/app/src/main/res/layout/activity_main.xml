@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn__create_notif"
+        style="@style/MyButton"
+        android:text="@string/notify_me"
+        android:onClick="clickedButton" />
+
+    <Button
+        android:id="@+id/btn_cancel_notif"
+        style="@style/MyButton"
+        android:text="@string/cancel_notification"
+        android:onClick="clickedButton" />
+
+    <Button
+        android:id="@+id/btn_update_notif"
+        style="@style/MyButton"
+        android:text="@string/update_notification"
+        android:onClick="clickedButton" />
+
+    <Button
+        android:id="@+id/btn_create_alarm"
+        style="@style/MyButton"
+        android:text="@string/create_alarm_notif"
+        android:onClick="clickedButton" />
+
+    <Button
+        android:id="@+id/btn_cancel_alarm"
+        style="@style/MyButton"
+        android:text="@string/cancel_alarm_notif"
+        android:onClick="clickedButton" />
+
+
+
+</LinearLayout>

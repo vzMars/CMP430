@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">InputControlsPickers</string>
+    <string name="button_text_call">call</string>
+    <string name="hint_enter_phone_number">enter phone number</string>
+    <string name="text_title_phone">Phone #:</string>
+    <string name="text_phone_none_specified">none specified</string>
+    <string name="button_text_next">Next</string>
+    <string-array name="phone_labels_array">
+        <item>Mobile</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="text_no_number">NO NUMBER</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="text_label_message">Message</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="action_send">Send</string>
+</resources>

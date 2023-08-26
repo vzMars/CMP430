@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab3Fragment"
+    android:orientation="vertical"
+    android:id="@+id/tab2_fusion"
+    android:background="@android:color/holo_blue_bright">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_fusion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_lovely_fusion_1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="16dp"/>
+    <TextView
+        android:id="@+id/tv_fusion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_lovely_fusion_2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_fusion3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_lovely_fusion_3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="16dp"/>
+
+
+</LinearLayout>

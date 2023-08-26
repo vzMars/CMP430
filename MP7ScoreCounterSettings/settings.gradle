@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "MP7 Score Counter Settings"

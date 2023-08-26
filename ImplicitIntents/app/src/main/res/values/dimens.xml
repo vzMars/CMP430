@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_big">16dp</dimen>
+    <dimen name="padding_default">8dp</dimen>
+    <dimen name="button_text_size_default">20sp</dimen>
+    <dimen name="margin_xl">24dp</dimen>
+</resources>
