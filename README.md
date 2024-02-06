@@ -6,4 +6,5 @@ Coursework for CMP 430.
 
 **Tech used:** Java, Android Studio
 
-All of the assignments were made using Java and the Android Studio IDE was used.
+All homework assignments were done using Java and Android Studio.
+
